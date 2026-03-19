@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <h1 className={ myClass } >Number is { count }</h1>
+     <h1 className={ myClass } >Test Number is { count }</h1>
 
      <button onClick={ () => setCount(count + 1) }  className="bg-blue-500 text-white px-4 py-2">
       Click
